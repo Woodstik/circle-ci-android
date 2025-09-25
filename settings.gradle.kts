@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "circle-ci-android"
 include(":app")
- 
+include(":tools")
