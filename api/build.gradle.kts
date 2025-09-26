@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tools"
+    namespace = "com.example.api"
     compileSdk = 36
 
     defaultConfig {
@@ -36,6 +36,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(project(":tools"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
